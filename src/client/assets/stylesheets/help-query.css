@@ -1,45 +1,44 @@
 .help-query {
-    background-color: #82b5d8;
-    color: #081038;
-    text-align: center;
+  background-color: #82b5d8;
+  color: #081038;
+  text-align: center;
 }
 
 .help-query .left-content h2 {
-    color: white;
+  color: white;
 }
 
 .help-query .left-content p {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .help-query .right-content button {
-    background-color: #0671bb;
-    color: white;
-    border-style: none;
-    font-size: 1.2rem;
-    border-radius: 5px;  
-    padding: 1rem
+  background-color: #0671bb;
+  color: white;
+  border-style: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 1rem;
 }
 
-@media only screen and (min-width: 1024px) { 
-
-    .help-query {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        padding-top: 3rem ;
-        padding-bottom: 3rem;
-    }
-    .left-content {
-        justify-self: left;
-        text-align: left;
-    }
-    .right-content {
-        justify-self: right;
-    }
-    .help-query .right-content button {
-        padding: 1rem 2.5rem;
-    }
+@media only screen and (min-width: 1024px) {
+  .help-query {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .left-content {
+    justify-self: left;
+    text-align: left;
+  }
+  .right-content {
+    justify-self: right;
+  }
+  .help-query .right-content button {
+    padding: 1rem 2.5rem;
+  }
 }
