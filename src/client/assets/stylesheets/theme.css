@@ -97,11 +97,11 @@ p {
     display: block;
     font-family: nexa-light;
     font-size: 1rem;
-    color: var(--main-text-color);
+    color: #081038;
 }
 
 button {
-    background-color: var(--main-button-bg-color);
+    background-color: #010133;
     border-style: none;
     color: white;
     padding: 0.5rem 1rem;
@@ -125,7 +125,7 @@ input:focus , button:focus, select:focus, textarea:focus{
 }
 
 ::placeholder {
-    color: var(--placeholder-color);
+    color:#b3b3b3;
     font-family: nexa-bold;
 }
 
