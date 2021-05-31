@@ -322,7 +322,7 @@
 
   justify-self: stretch;
   align-self: center;
-  /* /* padding: 1rem; */
+
   padding-bottom: 1rem;
   padding-top: 0.75rem;
 }
@@ -340,15 +340,11 @@
 }
 
 /* Exclusive Services Ends */
-
-/* Need Help starts */
-
-/* Need Help Ends */
-
 /* Footer Starts */
+/* for tablet view */
 
-@media only screen and (min-width: 700px) {
-  .search-location-section .gps-bar {
+@media only screen and (min-width: 700px) { 
+ .search-location-section .gps-bar {
     height: inherit;
     font-size: inherit;
     margin: auto;
@@ -463,6 +459,7 @@
   /* Footer */
 }
 
+/* For desktop view */
 @media only screen and (min-width: 1024px) {
   .search-location-section {
     background-image: url(https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/img1.jpg);
