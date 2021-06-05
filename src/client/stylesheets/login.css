@@ -1,6 +1,6 @@
 .login-section {
   text-align: center;
-  background-color: var(--secondary-bg-color);
+  background-color: #82b5d8;
 }
 
 a {
@@ -28,7 +28,7 @@ button:focus {
   font-size: 1.4rem;
   line-height: 1.8;
   padding-bottom: 1rem;
-  color: var(--secondary-text-color);
+  color: #0671bb;
 }
 
 .login-section .login-wrapper .login-form {
@@ -93,11 +93,11 @@ button:focus {
 }
 
 .login-section .login-wrapper h5 a {
-  color: var(--secondary-text-color);
+  color: #0671bb;
 }
 
 footer {
-  background-color: var(--secondary-bg-color);
+  background-color: #82b5d8;
   text-align: center;
   font-family: nexa-bold;
   padding: 1rem 1.2rem;
@@ -105,7 +105,7 @@ footer {
 }
 
 footer p {
-  color: var(--main-text-color);
+  color: #081038;
   font-family: nexa-bold;
   font-size: 0.85rem;
   padding-bottom: 1rem;

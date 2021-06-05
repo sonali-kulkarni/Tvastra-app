@@ -113,7 +113,7 @@
   display: inline-block;
   border: 2px solid lightgrey;
   border-radius: 20px;
-  color: var(--main-text-color);
+  color: #081038;
   padding: 0.1rem 0.5rem;
   margin: 0.2rem 0;
 }
@@ -191,7 +191,7 @@
     align-items: center;
     justify-items: left;
     font-size: 1rem;
-    color: var(--main-text-color);
+    color: #081038;
   }
 
   .filter-content label {
@@ -266,7 +266,7 @@
     display: block;
     width: 100%;
     height: 200px;
-    color: var(--main-text-color);
+    color: #081038;
     position: relative;
   }
 
@@ -322,7 +322,7 @@
     line-height: 2.5rem;
     padding-left: 1rem;
     font-size: 1rem;
-    color: var(--main-text-color);
+    color: #081038;
     opacity: 0.8;
   }
 
