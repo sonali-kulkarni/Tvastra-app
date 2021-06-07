@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Doctor's Profile</title>
-
+    <title>About Hospital</title>
     <link rel="stylesheet" type="text/css" href="../src/client/stylesheets/reset.css" />
     <link
       rel="stylesheet"
@@ -20,7 +19,12 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../src/client/stylesheets/doctor's-profile.css"
+      href="../src/client/stylesheets/banner.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../src/client/stylesheets/about-hospital.css"
     />
     <link
       rel="stylesheet"
@@ -37,6 +41,7 @@
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     />
   </head>
+
   <body>
     <!-- Header starts -->
     <header>
@@ -63,12 +68,12 @@
           <li><a href="about-us.html">About</a></li>
         </ul>
         <div class="nav-cta hide-mobile">
-          <button class="login-btn">
-            <a href="login.html">Login / Signup</a>
-          </button>
-          <button class="getQuote-btn">
-            <a href="get.html">Get a Quote </a>
-          </button>
+          <a href="login.html">
+            <button class="login-btn">Login / Signup</button>
+          </a>
+          <a href="get.html">
+            <button class="getQuote-btn">Get a Quote</button>
+          </a>
         </div>
       </nav>
     </header>
@@ -76,41 +81,54 @@
 
     <!-- Banner -->
     <div class="banner">
-      <img
-        src="https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/contactUs.png"
-        alt="banner-bg"
-      />
+      <img src="#" alt="banner-bg" />
       <div class="banner-text">
-        <h1>About John Nission</h1>
-        <span>Home / Doctor Profile</span>
+        <h1>About Apollo Hospital</h1>
+        <span>Home / Hospital Profile</span>
       </div>
     </div>
 
     <!-- About Doctor -->
-    <section class="about-doctor-section">
-      <main class="about-doctor-container">
-        <div class="doc-profile-cta-box">
-          <div class="doc-img-box">
+    <section class="about-hospital-section">
+      <main class="about-hospital-container">
+        <div class="hosp-profile-cta-box">
+          <div class="hosp-img-box">
             <img
-              class="doc-img"
-              src="https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/image--005.jpg"
-              alt="John Nission"
+              class="hosp-img"
+              src="hospital assets/Apollo-Hospital.jpg"
+              alt="Apollo Hospital"
             />
           </div>
-          <a class="book-btn-anchor" href="book-appointment.html">
-            <button class="book-btn">Book an appointment</button>
+          <a class="call-btn-anchor" href="#">
+            <button class="call-btn">Call Now</button>
           </a>
         </div>
-        <div class="doc-basic-bio">
-          <h2 class="doc-name">John Nission</h2>
+        <div class="hosp-basic-bio">
+          <h2 class="hosp-name">Apollo Hospital</h2>
+          <ul>
+            <li class="basic-bio-listItem1">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Delhi Mathura Road, Sarita Vihar, Delhi 110076</span>
+            </li>
+            <li class="basic-bio-listItem2">
+              <i class="fas fa-bed"></i>
+              <span>113 Beds</span>
+            </li>
+          </ul>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            dolorum aliquid dignissimos nulla dolore ad tenetur saepe quaerat
-            neque optio adipisci, quam illo cumque distinctio sunt similique
-            harum, eligendi fuga.
+            Apollo Hospitals has emerged as Asia's foremost integrated
+            healthcare services provider and has a robust presence across the
+            healthcare ecosystem, including Hospitals, Pharmacies, Primary Care
+            & Diagnostic Clinics and several retail health models. The Group
+            also has Telemedicine facilities across several countries. Health
+            Insurance Services, Global Projects Consultancy, Medical Colleges,
+            Medvarsity for E-Learning, Colleges of Nursing and Hospital
+            Management and a Research Foundation. In addition, 'ASK Apollo' - an
+            online consultation portal and Apollo Home Health provide the care
+            continuum.
           </p>
         </div>
-        <div class="doc-detailed-bio">
+        <div class="hosp-detailed-bio">
           <ul>
             <li>
               <div class="bio-item-heading specialization">
@@ -130,16 +148,16 @@
               </div>
             </li>
             <li>
-              <div class="bio-item-heading list-of-treatments">
+              <div class="bio-item-heading famous-treatments">
                 <i class="fas fa-stethoscope heading-icon"></i>
-                <h3>List Of Treatments</h3>
+                <h3>Famous Treatments</h3>
                 <i class="fas fa-angle-down angle-icon accordion-btn"></i>
               </div>
               <div
                 class="
                   bio-item-content
                   accordion-panel
-                  list-of-treatments-content
+                  famous-treatments-content
                 "
               >
                 <p>
@@ -151,13 +169,30 @@
               </div>
             </li>
             <li>
-              <div class="bio-item-heading work-experience">
+              <div class="bio-item-heading famous-doctors">
+                <i class="fas fa-user-md heading-icon"></i>
+                <h3>Famous Doctors</h3>
+                <i class="fas fa-angle-down angle-icon accordion-btn"></i>
+              </div>
+              <div
+                class="bio-item-content accordion-panel famous-doctors-content"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consequuntur possimus provident cumque quam sit. Dignissimos
+                  fuga voluptates nemo minima esse doloribus odit aliquam ad
+                  minus est, doloremque magnam natus quibusdam!
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="bio-item-heading infrastructure">
                 <i class="fas fa-hospital icon heading-icon"></i>
-                <h3>Work Experience</h3>
+                <h3>Infrastructure</h3>
                 <i class="fas fa-angle-down angle-icon accordion-btn"></i>
               </div>
               <div
-                class="bio-item-content accordion-panel work-experience-content"
+                class="bio-item-content accordion-panel infrastructure-content"
               >
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -168,44 +203,14 @@
               </div>
             </li>
             <li>
-              <div class="bio-item-heading qualification">
-                <i class="fas fa-star heading-icon"></i>
-                <h3>Qualification</h3>
-                <i class="fas fa-angle-down angle-icon accordion-btn"></i>
-              </div>
-              <div
-                class="bio-item-content accordion-panel qualification-content"
-              >
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Consequuntur possimus provident cumque quam sit. Dignissimos
-                  fuga voluptates nemo minima esse doloribus odit aliquam ad
-                  minus est, doloremque magnam natus quibusdam!
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="bio-item-heading awards">
-                <i class="fas fa-trophy heading-icon"></i>
-                <h3>Awards</h3>
-                <i class="fas fa-angle-down angle-icon accordion-btn"></i>
-              </div>
-              <div class="bio-item-content accordion-panel awards-content">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Consequuntur possimus provident cumque quam sit. Dignissimos
-                  fuga voluptates nemo minima esse doloribus odit aliquam ad
-                  minus est, doloremque magnam natus quibusdam!
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="bio-item-heading location">
+              <div class="bio-item-heading complete-adress">
                 <i class="fas fa-map-marker-alt heading-icon"></i>
-                <h3>Location</h3>
+                <h3>Complete Address</h3>
                 <i class="fas fa-angle-down angle-icon accordion-btn"></i>
               </div>
-              <div class="bio-item-content accordion-panel location-content">
+              <div
+                class="bio-item-content accordion-panel complete-adress-content"
+              >
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Consequuntur possimus provident cumque quam sit. Dignissimos
@@ -215,12 +220,54 @@
               </div>
             </li>
             <li>
-              <div class="bio-item-heading avg-fees">
-                <i class="fas fa-rupee-sign heading-icon"></i>
-                <h3>Avg Fees</h3>
+              <div class="bio-item-heading hospital-pacakges">
+                <i class="fas fa-h-square heading-icon"></i>
+                <h3>Hospital Packages</h3>
                 <i class="fas fa-angle-down angle-icon accordion-btn"></i>
               </div>
-              <div class="bio-item-content accordion-panel avg-fees-content">
+              <div
+                class="
+                  bio-item-content
+                  accordion-panel
+                  hospital-pacakges-content
+                "
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consequuntur possimus provident cumque quam sit. Dignissimos
+                  fuga voluptates nemo minima esse doloribus odit aliquam ad
+                  minus est, doloremque magnam natus quibusdam!
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="bio-item-heading hospital-charges">
+                <i class="fas fa-rupee-sign heading-icon"></i>
+                <h3>Hospital Charges</h3>
+                <i class="fas fa-angle-down angle-icon accordion-btn"></i>
+              </div>
+              <div
+                class="
+                  bio-item-content
+                  accordion-panel
+                  hospital-charges-content
+                "
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consequuntur possimus provident cumque quam sit. Dignissimos
+                  fuga voluptates nemo minima esse doloribus odit aliquam ad
+                  minus est, doloremque magnam natus quibusdam!
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="bio-item-heading membership">
+                <i class="fas fa-id-card heading-icon"></i>
+                <h3>Membership</h3>
+                <i class="fas fa-angle-down angle-icon accordion-btn"></i>
+              </div>
+              <div class="bio-item-content accordion-panel membership-content">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Consequuntur possimus provident cumque quam sit. Dignissimos
