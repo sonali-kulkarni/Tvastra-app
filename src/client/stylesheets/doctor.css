@@ -87,9 +87,7 @@
   align-content: center;
   justify-content: left;
   align-items: center;
-
-  font-size: 1rem;
-  
+font-size: 1rem;
   padding: 0.5rem 0;
 }
 .doctor-card .doctor-info li i {
