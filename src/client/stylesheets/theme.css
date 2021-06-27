@@ -42,14 +42,27 @@ body {
   padding: 0px;
   margin: 0;
   line-height: 1.4rem;
-  --placeholder-color: #b3b3b3;
-  --main-border-color: #b3b3b3;
-  --main-bg-color: #081038;
-  --secondary-bg-color: #82b5d8;
-  --main-button-bg-color: #010133;
-  --secondary-button-bg-color: #0671bb;
-  --main-text-color: #081038;
-  --secondary-text-color: #0671bb;
+
+    --main-sectionHeadlines-font-size: 1.8rem;
+    --main-sectionHeadlines-line-height: 2rem;
+    --main-sectionHeadlines-color: #081038;
+    
+    --main-sectionPara-font-size: 1.1rem;
+    --main-sectionPara-color: #081038;
+     --main-bg-color: #081038;
+    --secondary-bg-color: #82b5d8; 
+    --main-text-color: #081038;
+    --secondary-text-color: #0671bb;
+    --placeholder-color: #b3b3b3;
+
+    --main-border-color: #b3b3b3;
+
+    --main-button-bg-color: #010133;
+    --secondary-button-bg-color: #0671bb;
+
+    --footer-copyright-color: #636668;
+    --footer-textItems-color: #cccccc;
+    --footer-bg-color: #021433;
 }
 
 h1 {
@@ -100,6 +113,20 @@ button {
   color: white;
   padding: 0.5rem 1rem;
   font-family: nexa-bold;
+   cursor: pointer;
+}
+.primary-invert-btn {
+    background-color: white;
+    border: 0.1rem solid var(--main-button-bg-color);
+    color: var(--main-button-bg-color);
+    padding: 0.5rem 1rem;
+    font-family: nexa-bold;
+    
+}
+
+ .secondary-btn {
+    background-color: var(--secondary-button-bg-color); 
+    border-radius: 5px;
 }
 
 textarea {
