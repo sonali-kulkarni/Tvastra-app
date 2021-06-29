@@ -1,6 +1,9 @@
+
+
 .login-section {
   text-align: center;
   background-color: #82b5d8;
+  padding: 0.9rem;
 }
 
 a {
@@ -108,5 +111,5 @@ footer p {
   color: #081038;
   font-family: nexa-bold;
   font-size: 0.85rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }

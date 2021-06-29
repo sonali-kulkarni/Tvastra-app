@@ -87,7 +87,7 @@
   position: absolute;
   width: 18px;
   height: 2px;
-  background-color: var(--blue);
+  background-color: #0173b2;
   left: 0;
   top: 30px;
 }
@@ -96,7 +96,7 @@
   position: relative;
   padding: 25px;
   box-sizing: border-box;
-  border: 1px solid var(--gray);
+  border: 1px solid #cccccc;
   margin-bottom: 10px;
   border-radius: 15px;
 }
@@ -107,16 +107,16 @@
 .side-1 h6,
 .side-2 h6 {
   font-family: "Nexa-Bold";
-  color: var(--darkblue);
+  color: #021433;
 }
 .side-1 span,
 .side-2 span {
   font-family: "Nexa-Bold";
-  color: var(--darkgray);
+  color: #636668;
   display: flex;
   padding: 20px 0px 5px;
   justify-content: space-between;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid #cccccc;
 }
 
 /* Section-2 ends */
